@@ -26,7 +26,7 @@ rustc-hash = "1.1"
 
 [dependencies.pyo3]
 git = "https://github.com/nuant-oss/pyo3.git"
-tag = "v0.21.0-bigdecimal_support"
+tag = "v0.21.0-bigdecimal_support-0.3"
 default-features = false
 features = ["macros"]
 
@@ -35,7 +35,7 @@ nalgebra = { version = "0.32", default-features = false, features = ["std"] }
 
 [dev-dependencies.pyo3]
 git = "https://github.com/nuant-oss/pyo3.git"
-tag = "v0.21.0-bigdecimal_support"
+tag = "v0.21.0-bigdecimal_support-0.3"
 default-features = false
 features = ["auto-initialize"]
 
